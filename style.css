@@ -60,7 +60,6 @@ nav ul li a {
 
 .intro-content {
   background-color: hsl(218, 28%, 13%);
-  background-color: hsl(218, 28%, 13%);
   color: hsl(0, 0%, 100%);
   text-align: center;
   padding: 10%;
@@ -96,7 +95,7 @@ nav ul li a {
 
 .card {
   width: 75%;
-  margin: 15% auto;
+  margin: 10% auto;
 }
 
 /* Stay Protected Card */
@@ -113,32 +112,136 @@ nav ul li a {
 .stay-protected-card-content {
   width: 80%;
   margin: 0 auto;
-  padding: 15% 0 30% 0;
+  padding: 10% 0 20% 0;
 }
 
 .stay-protected-card-content a {
   color: hsl(176, 68%, 64%);
 }
 /* Testimonials */
-#testimonail-card-wrapper {
-  background-color: hsl(218, 28%, 13%);
+#testimonial-card-wrapper {
+  background-color: hsl(217, 28%, 13%);
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .testimonial-card {
-  background-color: hsl(219, 30%, 18%);
+  background-color: hsl(217, 28%, 15%);
   color: hsl(0, 0%, 100%);
-  width: 50%;
-  height: 25%;
-  margin: 10% auto;
-  padding: 50px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 15px 30px;
+  border-radius: 5px;
 }
 
+.testimonial-publisher {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-publisher img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50px;
+}
+
+.testimonial-publisher-content h4 {
+  margin: 0;
+}
+
+.testimonial-publisher-content p {
+  margin: 0;
+}
 /* Footer */
 .newsletter-card {
-  background-color: hsl(219, 30%, 18%);
+  background-color: hsl(217, 28%, 15%);
   color: white;
   text-align: center;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   padding: 25px;
+  border-radius: 25px;
+}
+
+.newsletter-card h3 {
+  margin: 0;
+}
+
+.newsletter-card form input {
+  width: 80%;
+  border-radius: 25px;
+  padding: 15px 25px;
+}
+
+.newsletter-card form button {
+  width: 80%;
+  border-radius: 25px;
+  padding: 15px 25px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(176, 68%, 64%);
+  border: 1px solid hsl(176, 68%, 64%);
+}
+
+footer {
+  background-color: hsl(216, 53%, 9%);
+}
+
+.footer-content {
+  margin-left: 5%;
+}
+
+.footer-label {
+  display: flex;
+  align-items: top;
+  color: white;
+}
+
+.footer-label p {
+  margin: 0 0 0 5%;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5% 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-social-links {
+  margin-top: 15%;
+}
+
+.footer-social-links ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social-links ul li {
+  border: 1px solid white;
+  padding: 3.5% 4.5%;
+  border-radius: 50%;
+}
+
+.footer-social-links ul li a {
+  color: white;
+}
+
+.copyright {
+  padding: 10% 0 20% 0;
+  margin: 0;
+  text-align: center;
 }
