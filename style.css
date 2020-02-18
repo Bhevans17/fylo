@@ -122,30 +122,42 @@ nav ul li a {
 #testimonial-card-wrapper {
   background-color: hsl(217, 28%, 13%);
   height: 100%;
-  padding: 10px;
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.colon-logo {
+  color: cyan;
+  position: relative;
+  font-size: 10vh;
+  left: 10%;
+  bottom: -95px;
+}
+
 .testimonial-card {
-  background-color: hsl(217, 28%, 15%);
+  background-color: hsl(217, 28%, 19%);
   color: hsl(0, 0%, 100%);
   width: 70%;
-  margin: 0 auto;
+  margin: 25px auto;
   padding: 15px 30px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .testimonial-publisher {
   display: flex;
-  align-items: center;
+  align-items: top;
 }
 
 .testimonial-publisher img {
   width: 20%;
   height: 20%;
   border-radius: 50px;
+}
+
+.testimonial-publisher-content {
+  margin-left: 10px;
 }
 
 .testimonial-publisher-content h4 {
@@ -155,7 +167,7 @@ nav ul li a {
 .testimonial-publisher-content p {
   margin: 0;
 }
-/* Footer */
+
 .newsletter-card {
   background-color: hsl(217, 28%, 15%);
   color: white;
@@ -164,6 +176,8 @@ nav ul li a {
   margin: 0 auto;
   padding: 25px;
   border-radius: 25px;
+  position: relative;
+  bottom: -160px;
 }
 
 .newsletter-card h3 {
@@ -185,6 +199,7 @@ nav ul li a {
   border: 1px solid hsl(176, 68%, 64%);
 }
 
+/* Footer */
 footer {
   background-color: hsl(216, 53%, 9%);
 }
@@ -195,6 +210,7 @@ footer img {
 
 .footer-content {
   margin-left: 5%;
+  padding-top: 160px;
 }
 
 .footer-label {
